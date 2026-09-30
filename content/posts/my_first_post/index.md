@@ -3,6 +3,7 @@ date = '2026-09-30T09:22:42+05:00'
 draft = false
 title = 'My First Post'
 summary = 'Small introduction to me and why I wanted to start writing a blog'
+tags = ['introduction', 'personal', 'gaming', 'programming']
 +++
 
 # **Welcome**
