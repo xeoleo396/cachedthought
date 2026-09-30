@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <header class="homepage-header">
+    <div class="container">
+      <h1>{{.Title}}</h1>
+    </div>
+  <main>
+    <div class ="container">
+      
+      {{range where .Site.RegularPages "Type" "posts" }}
+      <div class="home-page-article">
+        
+        <a class="home-page-article_link" href="{{.Permalink}}">{{.Title}}</a>
+        <p>{{.Summary | plainify | truncate 180}}</p>
+        
+        <span class="home-page-article_date">
+
+          {{.Params.date.Format "Mon Jan 2, 2006"}}
+        </span>
+      </div>
+
+  {{ end }}
+
+    </div>
+  </main>
+{{ end }}

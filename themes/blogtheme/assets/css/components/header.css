@@ -1,0 +1,15 @@
+header {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+
+  background: rgba(255, 255, 255, 0.65);
+
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  border-radius: 18px;
+
+  box-shadow:
+    0 5px 15px rgba(0, 80, 120, 0.18),
+    inset 0 1px 0 white;
+
+  backdrop-filter: blur(8px);
+}
