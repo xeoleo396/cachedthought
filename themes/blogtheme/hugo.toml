@@ -18,6 +18,11 @@ title = 'My New Hugo Project'
     pageRef = '/tags'
     weight = 30
 
+    [[menus.main]]
+name = 'Music'
+pageRef = '/music'
+weight = 30
+
 [module]
   [module.hugoVersion]
     extended = false
