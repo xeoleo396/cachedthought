@@ -2,6 +2,8 @@
 
 <h1>{{ .Title }}</h1>
 
+{{ .Content }}
+
 {{ range .Pages }}
 
 <article class="home-page-article">
@@ -14,9 +16,11 @@
 
   <p>{{ .Summary }}</p>
 
-  <time class="home-page-article_date">
-    {{ .Date.Format "Mon Jan 2, 2006" }}
-  </time>
+  {{ with .Date }}
+    <time class="home-page-article_date">
+      {{ .Format "Mon Jan 2, 2006" }}
+    </time>
+  {{ end }}
 
 </article>
 
