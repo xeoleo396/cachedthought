@@ -1,6 +1,7 @@
 +++
-date = '2026-10-09T09:22:42+05:00'
-draft = true
+date = '2026-10-04T09:22:42+05:00'
+publishDate = '2026-10-07T09:00:00+05:00'
+draft = false
 title = 'Why I use Linux!'
 summary = 'Why I switched to using linux! my journey from EndeavourOS to Artix'
 tags = ['Operating Systems', 'personal', 'programming']
