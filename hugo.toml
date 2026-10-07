@@ -8,6 +8,6 @@ enableRobotsTXT = true
   description = 'Thoughts on programming, Linux, AI, books, games, music, and whatever else catches my attention.'
 
 [outputs]
-  home = ['HTML', 'RSS', 'JSON']
+  home = ['HTML', 'RSS']
 
 
