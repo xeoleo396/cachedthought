@@ -2,4 +2,12 @@ baseURL = 'https://xeoleo396.github.io/cachedthought/'
 locale = 'en-us'
 title = 'cachedthoughts'
 theme = 'blogtheme'
+enableRobotsTXT = true
+
+[params]
+  description = 'Thoughts on programming, Linux, AI, books, games, music, and whatever else catches my attention.'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
 
