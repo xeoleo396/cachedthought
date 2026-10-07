@@ -19,7 +19,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Description | default .Summary | html }}</description>
       <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/">
-        {{ .Content }}
+        {{ transform.XMLEscape .Content | safeHTML }}
       </content:encoded>
     </item>
     {{ end }}
