@@ -8,7 +8,6 @@ tags = ['Operating Systems', 'personal', 'programming']
 +++
 
 # What is Linux
-        {{ .Content }}
 First things first, if you have been living under a rock or are not really into computers? then Linux also called "GNU/Linux". It is important to understand that Linux itself is not the operating system but rather it is the name of the kernel which is used alongside  GNU (GNU is not another unix) and other userspace components. Combine them and you get everything you need to make your DE(Desktop Environment which can be anyone you like Hyprland, KDE, Gnome, Xcfe and Many more)! It also has your package managers(think apt,pacman,zypper etc), init systems(OpenRC, Systemd, etc), drivers, applications and so on! What we typically use is called a Linux Distribution or distro, common example are Ubuntu, Arch, Debian, Fedora, openSUSE and the distro I am currently one Artix!
 
 So now the question we are all on 
