@@ -1,5 +1,5 @@
 +++
-date = '2026-10-04T09:22:42+05:00'
+date = '2026-10-07T09:22:42+05:00'
 publishDate = '2026-10-07T09:00:00+05:00'
 draft = false
 title = 'Why I use Linux!'
