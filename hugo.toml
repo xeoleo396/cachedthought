@@ -5,7 +5,7 @@ theme = 'blogtheme'
 enableRobotsTXT = true
 
 [params]
-  description = 'Thoughts on programming, Linux, AI, books, games, music, and whatever else catches my attention.'
+description = 'Thoughts on programming, Linux, AI, books, games, music, and whatever else catches my attention.'
 
 [outputs]
   home = ['HTML', 'RSS']
