@@ -8,7 +8,7 @@ tags = ['Operating Systems', 'personal', 'programming']
 +++
 
 # What is Linux
-
+        {{ .Content }}
 First things first, if you have been living under a rock or are not really into computers? then Linux also called "GNU/Linux". It is important to understand that Linux itself is not the operating system but rather it is the name of the kernel which is used alongside  GNU (GNU is not another unix) and other userspace components. Combine them and you get everything you need to make your DE(Desktop Environment which can be anyone you like Hyprland, KDE, Gnome, Xcfe and Many more)! It also has your package managers(think apt,pacman,zypper etc), init systems(OpenRC, Systemd, etc), drivers, applications and so on! What we typically use is called a Linux Distribution or distro, common example are Ubuntu, Arch, Debian, Fedora, openSUSE and the distro I am currently one Artix!
 
 So now the question we are all on 
@@ -19,7 +19,7 @@ First of all I must confess that I have a Windows 11 machine too **(Oh the Horro
 
 Well I started simply with ***drum roll please*** **EndeavourOS!**, not what your were expecting dear reader? Well how did even land on EndeavourOS(From now on will be writing as EOS ;) ). It happened due to one simple thing. My operating systems class in my University. My laptop at the time for some reason struggled to run Ubuntu in an VM so I thought why run it on well my second ssd? (I had two ssds in that laptop). So I looked up like everyone, whats the best gaming distro. From what I remember this was the 2022-2023 There was no CatchyOS and EOS was at the time considered to be good. So I installed was suprised that it took only few mins to install and be ready. I learned the basic linux commmands like cd, ls, find, grep, etc on there and deleted the OS after I was done with my OS class.
 
-Fast Forward two years and its the December 2025, Now My Laptop had Windows 11 and it was running awful! I tell you dear reader I was not having a blast. It was hell developing my FYP Project, So the allure of Linux called me and the Fact I had gotten another laptop on which I can game and stuff called me so I decided I will delete Win11 Forever and Downloaded my First real Distro..
+Fast Forward two years and its the December 2025, Now My Laptop had Windows 11 and it was running awful! I tell you dear reader I was not having a blast. It was hell developing my FYP Project, So the allure of Linux called me and the Fact I had gotten another laptop on which I can game and stuff made the transition easier! so I decided I will delete Win11 Forever and Downloaded my First real Distro..
 
 **Ubunt- Fedora With Gnome**   
 
