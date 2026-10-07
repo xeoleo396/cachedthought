@@ -358,3 +358,19 @@ img {
     inset 8px 8px 15px rgba(255, 255, 255, 0.35),
     0 0 15px rgba(255, 255, 255, 0.15);
 }
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+.rss-menu-item {
+    margin-left: auto;
+}
+
+.rss-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+    fill: currentColor;
+}
