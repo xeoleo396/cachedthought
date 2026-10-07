@@ -8,7 +8,7 @@ tags = ['introduction', 'personal', 'gaming', 'programming']
 
 # **Welcome**
 
-Hello! Welcome to **cachedthoughts**. This is my blog for, well, just messing around and writing my thoughts on stuff. My days are mostly consumed by going to my job from 9am to 6pm and then, with whatever time is left, I tend to read books or mangas. I also try to make maps (mostly fantasy world stuff). I like to play games (mostly Genshin Impact *(Trying to Get Vesna, My Pity is 54)* and Reverse 1999 *:p*). I enjoy learning programming as well as dabbling in some music making.
+Hello! Welcome to **Cached Memories**. This is my blog for, well, just messing around and writing my thoughts on stuff. My days are mostly consumed by going to my job from 9am to 6pm and then, with whatever time is left, I tend to read books or mangas. I also try to make maps (mostly fantasy world stuff). I like to play games (mostly Genshin Impact *(Trying to Get Vesna, My Pity is 54)* and Reverse 1999 *:p*). I enjoy learning programming as well as dabbling in some music making.
 
 A quick introduction for me. The author! I have recently graduated from my university! I have gotten my bachelor's in Computer Science ***(I really really love computers)***. Like, a lot, my formative memories are of messing around on a Dell Pentium machine and playing old-era games like NES, SNES, GBA, Megadrive, and DS etc! For me, that was the greatest era of my life, just me and my computer so I could play my games. During that time, my favorite game was **Super Mario 64!!!**
 
