@@ -374,3 +374,28 @@ nav > ul {
     display: block;
     fill: currentColor;
 }
+
+.float-right {
+    float: right;
+    width: 220px;
+    margin: 0.25rem 0 1rem 1.5rem;
+    border-radius: 6px;
+}
+
+.float-left {
+    float: left;
+    width: 220px;
+    margin: 0.25rem 1.5rem 1rem 0;
+    border-radius: 6px;
+}
+
+
+@media (max-width: 600px) {
+    .float-right,
+    .float-left {
+        float: none;
+        display: block;
+        width: 70%;
+        margin: 1rem auto;
+    }
+}
