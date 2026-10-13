@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://xeoleo396.github.io/cachedthought/sitemap.xml
