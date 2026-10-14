@@ -52,14 +52,12 @@ body::before {
    ======================================== */
 
 body > header,
+body > main,
 body > footer {
   width: min(920px, 100%);
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
-}
-body > main{
-  display: flow-root;
 }
 
 /* ========================================
@@ -261,16 +259,23 @@ p {
    Individual posts
    ======================================== */
 
+
 article {
-  padding: 1rem;
+    display: flow-root;
+    padding: 1rem;
+}
+
+
+article img {
+    max-width: 100%;
+    height: auto;
 }
 
 time {
-  display: block;
-  margin-bottom: 1.5rem;
-
-  font-size: 0.85rem;
-  color: #5d8095;
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: #5d8095;
 }
 
 /* ========================================
@@ -376,10 +381,15 @@ nav > ul {
     display: block;
     fill: currentColor;
 }
+/* ========================================
+   Floating images
+   ======================================== */
 
 .float-right {
     float: right;
     width: 220px;
+    max-width: 45%;
+    height: auto;
     margin: 0.25rem 0 1rem 1.5rem;
     border-radius: 6px;
 }
@@ -387,17 +397,26 @@ nav > ul {
 .float-left {
     float: left;
     width: 220px;
+    max-width: 45%;
+    height: auto;
     margin: 0.25rem 1.5rem 1rem 0;
     border-radius: 6px;
 }
 
+/* Stop text wrapping around an image at the next heading */
+article h2,
+article h3 {
+    clear: both;
+}
 
+/* Make sure the image behaves on smaller screens */
 @media (max-width: 600px) {
     .float-right,
     .float-left {
         float: none;
         display: block;
         width: 70%;
+        max-width: 100%;
         margin: 1rem auto;
     }
 }
