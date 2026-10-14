@@ -11,3 +11,5 @@ description = 'Thoughts on programming, Linux, AI, books, games, music, and what
   home = ['HTML', 'RSS']
 
 
+[markup.goldmark.renderer]
+unsafe = true
