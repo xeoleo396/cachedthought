@@ -10,7 +10,7 @@ So Amphibia! I didnt think I will talking about it so soon!, I just rewatched an
 
 Anyways what even is Amphibia?!?
 
-> Amphibia is an American animated television publishDate = '2026-10-14T09:00:00+05:00'series created by Matt Braly. It premiered on June 14, 2019 on DisneyNOW and YouTube and on June 17, 2019 on Disney Channel.
+> Amphibia is an American animated television series created by Matt Braly. It premiered on June 14, 2019 on DisneyNOW and YouTube and on June 17, 2019 on Disney Channel.
 
 And its premise is
 
