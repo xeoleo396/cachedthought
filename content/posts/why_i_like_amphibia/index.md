@@ -1,5 +1,5 @@
 +++
-date = '2026-10-07T21:36:56+05:00'
+date = '2026-10-14T21:36:56+05:00'
 publishDate = '2026-10-14T00:00:00+05:00'
 draft = false
 title = 'Why I like Amphibia'
