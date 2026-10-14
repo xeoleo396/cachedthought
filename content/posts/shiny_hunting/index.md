@@ -4,6 +4,7 @@ publishDate = '2026-10-21T00:00:00+05:00'
 draft = false
 title = 'Shiny Hunting in Pokemon!'
 summary = "My Current and Old Shiny Hunts in Pokemon Games"
+tags = ['introduction', 'personal', 'gaming', 'Shiny Hunting', 'Pokemon']
 +++
 
 # Shiny Hunting
