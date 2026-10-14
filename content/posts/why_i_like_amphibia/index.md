@@ -4,6 +4,7 @@ publishDate = '2026-10-14T00:00:00+05:00'
 draft = false
 title = 'Why I like Amphibia'
 summary = "My silly thoughts about one of my favorite shows"
+tags = ['review', 'cartoon']
 +++
 
 So Amphibia! I didnt think I will talking about it so soon!, I just rewatched and I have some thoughts on the show and its characters! Keep in mind, I am not really a critic, I just like watching my silly shows :p. *(I also really really struggle with getting my throughts on stuff down on both paper or digitally)*
