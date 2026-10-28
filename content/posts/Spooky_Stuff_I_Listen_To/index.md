@@ -1,7 +1,7 @@
 +++
 date = '2026-10-27T11:33:29+05:00'
 publishDate = '2026-10-28T00:00:00+05:00'
-draft = true
+draft = false
 title = 'Spooky Stuff I Vibe To'
 summary = 'Spooky Things I enjoy!'
 tags = ['podcasts', 'personal', 'Spooky']
