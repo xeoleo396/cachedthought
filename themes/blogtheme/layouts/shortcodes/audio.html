@@ -1,0 +1,50 @@
+
+<div class="aero-player">
+    <audio class="aero-audio" preload="metadata">
+        <source src="{{ .Get "src" | relURL }}" type="audio/wav">
+    </audio>
+
+    <div class="aero-player__top">
+        <div class="aero-player__disc">
+            <span>♫</span>
+        </div>
+
+        <div class="aero-player__info">
+            <span class="aero-player__title">{{ .Get "title" }}</span>
+            <span class="aero-player__artist">
+                {{ with .Get "artist" }}{{ . }}{{ else }}Unknown Artist{{ end }}
+            </span>
+            <span class="aero-player__status">Now Playing</span>
+        </div>
+
+        <div class="aero-player__visualizer">
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="aero-player__controls">
+        <button class="aero-play" type="button" aria-label="Play">
+            ▶
+        </button>
+
+        <div class="aero-player__timeline">
+            <input class="aero-progress" type="range"
+                min="0" max="100" value="0" step="0.1"
+                aria-label="Seek">
+            <div class="aero-player__times">
+                <span class="aero-current">0:00</span>
+                <span class="aero-duration">0:00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="aero-player__volume">
+        <span>VOL</span>
+        <input class="aero-volume" type="range"
+            min="0" max="1" value="0.8" step="0.01"
+            aria-label="Volume">
+    </div>
+</div>
+
+<script src="{{ "js/music-player.js" | relURL }}" defer></script>

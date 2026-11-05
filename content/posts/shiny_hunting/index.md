@@ -25,5 +25,9 @@ Yes I am shiny hunting on my dsi xl, I love it and I have it homebrewed!
 
 I will keep on updating this post when I get a new shiny!
 
+<img src="/cachedthought/images/shinycombee.jpg" alt ="My shiny combee" class = float-right>
+
+**[Edit 05-Nov-2026]** I accidentally caught a shiny combee it's a male :(. I am not being ungrateful its a nice shiny! I love it, I will go and shiny hunt boldree and axew again. I did beat the Pokemon Black(Yaaaayyyyyyy). I am also currently hunting melon the shiny bulbasaur in LeafGreen! Yes I am naming my bulbasaur as Melon cause I think the name is cute! I am hunting it on my emulator!
+
 ### Your author
 **Mr ε**

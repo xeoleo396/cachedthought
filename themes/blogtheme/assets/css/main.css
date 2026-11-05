@@ -420,3 +420,283 @@ article h3 {
         margin: 1rem auto;
     }
 }
+
+/* ========================================
+   Music Player
+   ======================================== */
+
+.music-player {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    margin: 1rem 0;
+    padding: 1rem;
+
+    border: 1px solid rgba(80, 170, 230, 0.8);
+    border-radius: 12px;
+
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.85) 0%,
+        rgba(190, 230, 255, 0.75) 100%
+    );
+
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.95),
+        inset 0 -5px 12px rgba(100, 180, 255, 0.2),
+        0 3px 12px rgba(0, 80, 160, 0.2);
+}
+
+.music-player__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.music-player__title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #07548a;
+}
+
+.music-player__artist {
+    font-size: 0.85rem;
+    color: #5d8095;
+}
+
+.music-player audio {
+    width: 100%;
+    height: 40px;
+}
+
+
+/* ========================================
+   Frutiger Aero Music Player
+   ======================================== */
+
+.aero-player {
+    max-width: 600px;
+    margin: 1.5rem 0;
+    padding: 14px;
+
+    border: 1px solid #378bd1;
+    border-radius: 14px;
+
+    background: linear-gradient(
+        180deg,
+        #e7f7ff 0%,
+        #a8dfff 35%,
+        #66b8f4 100%
+    );
+
+    box-shadow:
+        inset 0 2px 3px rgba(255,255,255,.95),
+        inset 0 -5px 10px rgba(0,75,160,.2),
+        0 4px 12px rgba(0,60,140,.3);
+
+    color: #12456e;
+}
+
+/* Song information */
+
+.aero-player__top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 8px;
+    margin-bottom: 14px;
+
+    border-radius: 10px;
+
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,.75),
+        rgba(190,225,250,.4)
+    );
+
+    box-shadow: inset 0 1px 3px white;
+}
+
+.aero-player__disc {
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+
+    display: grid;
+    place-items: center;
+
+    border-radius: 50%;
+
+    color: white;
+    font-size: 25px;
+
+    background: radial-gradient(
+        circle at 35% 30%,
+        #b8edff,
+        #1686d9 55%,
+        #064b9e 100%
+    );
+
+    border: 2px solid white;
+
+    box-shadow: 0 2px 7px rgba(0,50,120,.35);
+}
+
+.aero-player__info {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.aero-player__title {
+    font-weight: bold;
+    font-size: 1.05rem;
+    color: #064c83;
+}
+
+.aero-player__artist {
+    font-size: .85rem;
+    color: #376987;
+}
+
+.aero-player__status {
+    font-size: .7rem;
+    color: #1674b9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Visualizer */
+
+.aero-player__visualizer {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    height: 35px;
+}
+
+.aero-player__visualizer span {
+    width: 4px;
+    height: 8px;
+    border-radius: 4px;
+
+    background: linear-gradient(
+        180deg,
+        #ffffff,
+        #1689dc
+    );
+
+    box-shadow: 0 0 4px #1689dc;
+}
+
+.aero-player.is-playing .aero-player__visualizer span {
+    animation: aero-equalizer .65s ease-in-out infinite alternate;
+}
+
+.aero-player__visualizer span:nth-child(2) { animation-delay: .2s; }
+.aero-player__visualizer span:nth-child(3) { animation-delay: .4s; }
+.aero-player__visualizer span:nth-child(4) { animation-delay: .1s; }
+.aero-player__visualizer span:nth-child(5) { animation-delay: .3s; }
+.aero-player__visualizer span:nth-child(6) { animation-delay: .5s; }
+
+@keyframes aero-equalizer {
+    from { height: 5px; }
+    to { height: 30px; }
+}
+
+/* Playback controls */
+
+.aero-player__controls {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.aero-play {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+
+    border: 1px solid #2779bb;
+    border-radius: 50%;
+
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+
+    background: linear-gradient(
+        180deg,
+        #b9edff 0%,
+        #55b6f4 40%,
+        #0874c8 100%
+    );
+
+    box-shadow:
+        inset 0 2px 3px rgba(255,255,255,.9),
+        0 2px 5px rgba(0,50,120,.4);
+}
+
+.aero-play:hover {
+    filter: brightness(1.12);
+}
+
+.aero-play:active {
+    transform: scale(.95);
+}
+
+.aero-player__timeline {
+    flex: 1;
+    min-width: 0;
+}
+
+.aero-progress,
+.aero-volume {
+    accent-color: #087bd0;
+    cursor: pointer;
+}
+
+.aero-progress {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.aero-player__times {
+    display: flex;
+    justify-content: space-between;
+    font-size: .75rem;
+    color: #245c80;
+}
+
+/* Volume */
+
+.aero-player__volume {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+
+    margin-top: 8px;
+
+    font-size: .7rem;
+    font-weight: bold;
+    color: #245c80;
+}
+
+.aero-volume {
+    width: 100px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .aero-player {
+        padding: 10px;
+    }
+
+    .aero-player__visualizer {
+        display: none;
+    }
+}
